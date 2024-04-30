@@ -1,0 +1,10 @@
+op u6 ad829 n12 n11 n13
+r r13 10k n9 n11
+r r17 10k n10 n12
+r r20 1k n12 gnd
+r r12 1k n11 n13
+c c23 10p gnd n12
+c c16 10p n11 n13
+
+freq 1 8 200
+test n9 n13

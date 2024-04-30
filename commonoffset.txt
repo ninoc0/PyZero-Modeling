@@ -1,0 +1,11 @@
+op u8 ad829 gnd n14 n17
+r r18 100k n16 n15
+r r19 100k n15 n14
+r r16 10k n13 n14
+r r14 1k n14 n17
+r r9 1k n8 n14
+c c26 1u n15 gnd
+c c18 5p n14 n17
+
+freq 1 8 200
+test n8 n17
