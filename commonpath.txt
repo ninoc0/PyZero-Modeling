@@ -30,5 +30,57 @@ r r9 1k n8 n14
 c c26 1u n15 gnd
 c c18 5p n14 n17
 
+# Common Excitation
+
+op u10 ad829 n21 n20 n22
+r r27 10k n18 n20
+r r30 10k n19 n21
+r r31 1k n21 gnd
+r r24 1k n20 n22
+c c30 10p n20 n22
+c c40 10p gnd n21
+
+op u11 ad829 gnd n23 n24
+r r28 1k n22 n23
+r r21 1k n17 n23
+r r25 1k n23 n24
+c c31 5p n23 n24
+
+# Common Gain
+op u7a ad602 n28 gnd n33
+r r23 100 n24 n28
+
+# Boost
+op u16 ad829 gnd n34 n35
+r r63 1k n33 n34
+r r55 1k n34 n36
+c c66 5p n34 n35
+c c65 330n n36 n35
+c c62 1n n36 n35
+
+# Boost 2
+op u14 ad829 gnd n37 n42
+r r38 1M n41 n39
+r r43 100k n39 n40
+r r50 100k n38 n37
+r r49 1M ne n38
+r r52 499 n35 n37
+r r44 14.3k n37 n42
+r r40 1.58k n37 n43
+c c54 1u n39 gnd
+c c59 1u n38 gnd
+c c52 27p n37 n42
+c c50 330n n43 n42
+c c48 1n n43 n42
+
+# Boost 3
+op u15 ad829 gnd n44 n48
+r r53 1k n42 n44 
+r r45 100k n44 n48 
+r r41 1k n44 n46 
+c c53 27p n44 n48 
+c c51 330n n46 n47 
+c c49 1n n46 n47 
+
 freq 1 8 200
-test n1 n17
+test n1 n48
