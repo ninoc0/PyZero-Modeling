@@ -1,0 +1,16 @@
+op u14 ad829 gnd n37 n42
+r r38 1M n41 n39
+r r43 100k n39 n40
+r r50 100k n38 n37
+r r49 1M ne n38
+r r52 499 n35 n37
+r r44 14.3k n37 n42
+r r40 1.58k n37 n43
+c c54 1u n39 gnd
+c c59 1u n38 gnd
+c c52 27p n37 n42
+c c50 330n n43 n42
+c c48 1n n43 n42
+
+freq 1 8 200
+test n35 n42

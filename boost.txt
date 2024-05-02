@@ -1,0 +1,9 @@
+op u16 ad829 gnd n34 n35
+r r63 1k n33 n34
+r r55 1k n34 n36
+c c66 5p n34 n35
+c c65 330n n36 n35
+c c62 1n n36 n35
+
+freq 1 8 200
+test n33 n35

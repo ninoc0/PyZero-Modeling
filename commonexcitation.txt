@@ -1,0 +1,16 @@
+op u10 ad829 n21 n20 n22
+r r27 10k n18 n20
+r r30 10k n19 n21
+r r31 1k n21 gnd
+r r24 1k n20 n22
+c c30 10p n20 n22
+c c40 10p gnd n21
+
+op u11 ad829 gnd n23 n24
+r r28 1k n22 n23
+r r21 1k n17 n23
+r r25 1k n23 n24
+c c31 5p n23 n24
+
+freq 1 8 200
+test n18 n24

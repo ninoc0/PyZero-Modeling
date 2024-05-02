@@ -1,0 +1,10 @@
+op u15 ad829 gnd n44 n48
+r r53 1k n42 n44 
+r r45 100k n44 n48 
+r r41 1k n44 n46 
+c c53 27p n44 n48 
+c c51 330n n46 n47 
+c c49 1n n46 n47 
+
+freq 1 8 200
+test n42 n48

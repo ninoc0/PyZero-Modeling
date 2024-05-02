@@ -1,0 +1,5 @@
+op u7a ad602 n28 gnd n33
+r r23 100 n24 n28
+
+freq 1 8 200
+test n24 n33
