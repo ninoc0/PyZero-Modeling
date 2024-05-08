@@ -82,5 +82,21 @@ c c53 27p n44 n48
 c c51 330n n46 n47 
 c c49 1n n46 n47 
 
+# Boost 4
+op u17 ad829 gnd n40 n49
+r r56 3.16k n40 n50
+r r60 28k n40 n49
+c c67 2.2n n50 n49
+c c69 10p n40 n49
+
+# Low Pass
+op u18 ad829 gnd n50 n52
+r r66 499 n49 n50
+r r61 3.16k n50 n52
+c c70 390p n50 n52
+
+r r47 3.16k n48 n53 
+r r58 3.16k n50 n53
+
 freq 1 8 200
-test n1 n48
+test n1 n53
