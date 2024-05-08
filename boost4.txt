@@ -1,0 +1,8 @@
+op u17 ad829 gnd n40 n49
+r r56 3.16k n40 n50
+r r60 28k n40 n49
+c c67 2.2n n50 n49
+c c69 10p n40 n49
+
+freq 1 8 200
+test n40 n49
