@@ -2,5 +2,6 @@ op u18 ad829 gnd n50 n52
 r r66 499 n49 n50
 r r61 3.16k n50 n52
 c c70 390p n50 n52
+
 freq 1 8 200
 test n49 n52

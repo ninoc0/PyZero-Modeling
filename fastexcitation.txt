@@ -1,0 +1,16 @@
+op u24 ad829 n63 n62 n61  
+r r82 10k n64 n62 
+r r84 10k n64 n63 
+r r85 1k n63 gnd
+r r80 1k n62 n61
+c c110 10p gnd n63 
+c c99 10p n62 n61 
+r r83 1k n61 n59 
+
+op u23 ad829 gnd n59 n60 
+r r78 1k n59 n60 
+r r77 1k n54 n59 
+c c98 10p n59 n60 
+
+freq 1 8 200
+test n54 n60

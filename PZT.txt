@@ -1,0 +1,154 @@
+op u3 ad829 n4 n2 n5
+r r5 1k n1 n2
+r r8 1k n3 n4
+r r11 1k n4 gnd
+r r2 1k n2 n5
+c c1 4.7p n2 n5
+c c9 4.7p gnd n4
+
+op u4 ad829 gnd n7 n8
+r r7 1k n5 n6
+r r6 100k n5 n7
+r r3 1k n7 n8
+c c6 2.2n n6 n7
+c c2 4.7p n7 n8
+
+op u6 ad829 n12 n11 n13
+r r13 10k n9 n11
+r r17 10k n10 n12
+r r20 1k n12 gnd
+r r12 1k n11 n13
+c c23 10p gnd n12
+c c16 10p n11 n13
+
+op u8 ad829 gnd n14 n17
+r r18 100k n16 n15
+r r19 100k n15 n14
+r r16 10k n13 n14
+r r14 1k n14 n17
+r r9 1k n8 n14
+c c26 1u n15 gnd
+c c18 4.7p n14 n17
+
+# Common Excitation
+
+op u10 ad829 n21 n20 n22
+r r27 10k n18 n20
+r r30 10k n19 n21
+r r31 1k n21 gnd
+r r24 1k n20 n22
+c c30 10p n20 n22
+c c40 10p gnd n21
+
+op u11 ad829 gnd n23 n24
+r r28 1k n22 n23
+r r21 1k n17 n23
+r r25 1k n23 n24
+c c31 4.7p n23 n24
+
+# Common Gain
+op u7a ad602 n28 gnd n33
+r r23 100 n24 n28
+
+# Boost
+op u16 ad829 gnd n34 n35
+r r63 1k n33 n34
+r r55 1k n34 n36
+c c66 4.7p n34 n35
+c c65 330n n36 n35
+c c62 1n n36 n35
+
+# Boost 2
+op u14 ad829 gnd n37 n42
+r r38 1M n41 n39
+r r43 100k n39 n40
+r r50 100k n38 n37
+r r49 1M ne n38
+r r52 499 n35 n37
+r r44 14.3k n37 n42
+r r40 1.58k n37 n43
+c c54 1u n39 gnd
+c c59 1u n38 gnd
+c c52 27p n37 n42
+c c50 330n n43 n42
+c c48 1n n43 n42
+
+# Boost 3
+op u15 ad829 gnd n44 n48
+r r53 1k n42 n44 
+r r45 100k n44 n48 
+r r41 1k n44 n46 
+c c53 27p n44 n48 
+c c51 330n n46 n47 
+c c49 1n n46 n47 
+
+# Boost 4
+op u17 ad829 gnd n40 n49
+r r56 3.16k n40 n50
+r r60 28k n40 n49
+c c67 2.2n n50 n49
+c c69 10p n40 n49
+
+# Low Pass
+op u18 ad829 gnd n50 n52
+r r66 499 n49 n50
+r r61 3.16k n50 n52
+c c70 390p n50 n52
+
+r r47 3.16k n48 n53 
+r r58 3.16k n50 n53
+
+# Boost 5
+op u25 ad829 gnd n53 n54
+r r79 3.16k n53 n55
+c c100 330n n55 n54
+c c101 10p n53 n54
+c c97 1n n55 n54
+
+# Fast Excitation
+op u24 ad829 n63 n62 n61  
+r r82 10k n64 n62 
+r r84 10k n64 n63 
+r r85 1k n63 gnd
+r r80 1k n62 n61
+c c110 10p gnd n63 
+c c99 10p n62 n61 
+r r83 1k n61 n59 
+op u23 ad829 gnd n59 n60 
+r r78 1k n59 n60 
+r r77 1k n54 n59 
+c c98 10p n59 n60 
+
+# Notch Farm
+op u26 ad829 n68 n71 n72 
+r r96 499 n60 n68 
+r r100 33 n68 n69
+r r88 100 n71 n72
+l l1 740u n69 n70
+c c134 390p n70 gnd
+c c135 2.7n n70 gnd
+
+op u27 ad829 n73 n76 n77 
+r r97 499 n72 n73 
+r r101 33 n73 n74
+r r89 100 n76 n77
+l l2 470u n74 n75
+c c136 120p n75 gnd
+c c137 1n n75 gnd
+
+op u28 ad829 n78 n81 n82 
+r r98 499 n77 n78 
+r r102 33 n78 n79
+r r90 100 n81 n82
+l l3 220u n79 n80
+c c138 390p n80 gnd
+c c139 1n n80 gnd
+
+op u29 ad829 n83 n85 n86 
+r r99 249 n82 n83 
+r r91 100 n85 n86
+l l4 470u n83 n84
+c c141 10n n84 gnd
+
+freq 1 8 200
+test n1 n86

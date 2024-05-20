@@ -1,0 +1,8 @@
+op u25 ad829 gnd n53 n54
+r r79 3.16k n53 n55
+c c100 330n n55 n54
+c c101 10p n53 n54
+c c97 1n n55 n54
+
+freq 1 8 200
+test n53 n54

@@ -1,0 +1,32 @@
+op u26 ad829 n68 n71 n72 
+r r96 499 n60 n68 
+r r100 33 n68 n69
+r r88 100 n71 n72
+l l1 740u n69 n70
+c c134 390p n70 gnd
+c c135 2.7n n70 gnd
+
+op u27 ad829 n73 n76 n77 
+r r97 499 n72 n73 
+r r101 33 n73 n74
+r r89 100 n76 n77
+l l2 470u n74 n75
+c c136 120p n75 gnd
+c c137 1n n75 gnd
+
+op u28 ad829 n78 n81 n82 
+r r98 499 n77 n78 
+r r102 33 n78 n79
+r r90 100 n81 n82
+l l3 220u n79 n80
+c c138 390p n80 gnd
+c c139 1n n80 gnd
+
+op u29 ad829 n83 n85 n86 
+r r99 249 n82 n83 
+r r91 100 n85 n86
+l l4 470u n83 n84
+c c141 10n n84 gnd
+
+freq 1 8 200
+test n60 n86
