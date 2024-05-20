@@ -67,7 +67,7 @@ All of the following code is done using the [python code](https://github.com/nin
 
  ### i. Boost 4 (2.3kHz/23kHz)
 ![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
-![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+![boost4](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/f1a5b265-d642-4f3b-8496-a86c0b0f8dac)
 
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
@@ -75,7 +75,7 @@ All of the following code is done using the [python code](https://github.com/nin
 
  ### j. Low Pass (130kHz pole)
 ![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
-![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+![lowpass](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/72952565-4b28-41d1-8ff3-5a10f84599c3)
 
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
@@ -83,7 +83,7 @@ All of the following code is done using the [python code](https://github.com/nin
 
  ### k. Boost 5 (0Hz/150Hz)
 ![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
-![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+![boost5](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/65247dff-4dc4-42f9-9416-9d44863a5f10)
 
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
@@ -91,7 +91,7 @@ All of the following code is done using the [python code](https://github.com/nin
 
  ### l. Fast Excitation
 ![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
-![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+![fastexcitation](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/ca2b30e7-cda4-43ed-b81b-3a97d80f31f8)
 
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
@@ -99,7 +99,7 @@ All of the following code is done using the [python code](https://github.com/nin
 
  ### m. Notches (130kHz, 210kHz, 280kHz, 73kHz)
 ![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
-![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+![notch1](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/1e1b34fd-8f94-46d9-a91e-3647a8d1e008)
 
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
