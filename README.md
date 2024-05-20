@@ -64,4 +64,44 @@ All of the following code is done using the [python code](https://github.com/nin
 
 [code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
 [image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
+
+ ### i. Boost 4 (2.3kHz/23kHz)
+![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
+![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+
+
+[code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
+[image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
+
+ ### j. Low Pass (130kHz pole)
+![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
+![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+
+
+[code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
+[image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
+
+ ### k. Boost 5 (0Hz/150Hz)
+![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
+![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+
+
+[code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
+[image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
+
+ ### l. Fast Excitation
+![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
+![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+
+
+[code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
+[image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
+
+ ### m. Notches (130kHz, 210kHz, 280kHz, 73kHz)
+![image](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/b0b49f8a-168d-4a17-bb80-5018ce135219)
+![boost3](https://github.com/ninoc0/PyZero-Modeling/assets/90474645/24ad7234-e047-4d8f-a304-120a0c372811)
+
+
+[code](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.txt)
+[image](https://github.com/ninoc0/PyZero-Modeling/blob/main/boost3.png)
 ## 3. More....
