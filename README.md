@@ -1,6 +1,7 @@
 # PyZero-Modeling
 
-All of the following code is done using the [python code](https://github.com/ninoc0/PyZero-Modeling/blob/main/pymodel.py).
+All of the following code is done using the [python code](https://github.com/ninoc0/PyZero-Modeling/blob/main/PyZeroFitting.py).
+More information can be found on my [gitlab](https://gitlab.com/ninoc0).
 
 ## 1. Common Path
  ### a. Anti-Boost
